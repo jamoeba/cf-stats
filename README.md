@@ -10,11 +10,12 @@
 <img src="https://raw.githubusercontent.com/jamoeba/cf-stats/main/output/rating.svg" />
 </a>
 
-# Installation
+## Installation
 
 ### For step-by-step screenshots go [here](docs/INSTALLATIONSTEPS.md) 
 ### Video Demonstration
-  - [Hindi](https://www.youtube.com/watch?v=lPASqH0ZoIc)
+
+- [Hindi](https://www.youtube.com/watch?v=lPASqH0ZoIc)
 
 1. Star this repository :pray:
 2. Create a copy of this repository by clicking
@@ -32,21 +33,22 @@
    following lines of code into your markdown content. Change the `your-github-username`
    value to your GitHub username.
 
-   ```md
+   ```raw
    ![](https://raw.githubusercontent.com/your-github-username/cf-stats/main/output/light_card.svg#gh-dark-mode-only)
    ![](https://raw.githubusercontent.com/your-github-username/cf-stats/main/output/light_card.svg)
    ```
-   ```md
+
+   ```raw
    ![](https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/max_rating.svg)
    ![](https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/rating.svg)
    ```
 
-# Contribution guideline
+## Contribution guideline
 
 If you like this project and want to improve by adding features, fixing bugs or anything, please follow
 the [contributing guidelines](docs/CONTRIBUTING.md).
 
-# Acknowledgments
+## Acknowledgments
 
 ### Contributors List
 
@@ -55,4 +57,6 @@ the [contributing guidelines](docs/CONTRIBUTING.md).
 - [Manish](https://github.com/csemanish12)
 
 ### Inspiration
+
 This project is heavily inspired by [github-stats](https://github.com/jstrieb/github-stats) project
+
