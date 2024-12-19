@@ -1,5 +1,6 @@
 from app.constant import Constant
 from config.config import settings
+import re
 
 
 class Acronym:
@@ -13,7 +14,7 @@ class Acronym:
         for word in self.acronym_ignore:
             sentence = sentence.replace(word, '')
         acc = ""
-        for word in sentence.split():
+        for word in re.split(r'[ -]', sentence):
             # if the word is already an acronym
             # we take the whole acronym
             # ex: ITMO University -> ITMOU
